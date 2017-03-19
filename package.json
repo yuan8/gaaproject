@@ -1,0 +1,32 @@
+{
+  "name": "caecillia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "framework7": "^1.5.4",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.0",
+    "pug": "^2.0.0-beta11",
+    "yargs": "^7.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/empatlima/caecillia.git"
+  },
+  "author": "Muhammad Tsany Qudsi & Yuan Putra",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/empatlima/caecillia/issues"
+  },
+  "homepage": "https://github.com/empatlima/caecillia#readme",
+  "keywords": []
+}
