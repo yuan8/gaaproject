@@ -1,0 +1,68 @@
+
+.toolbar{
+	border-top:1px solid #f1f1f1;
+}
+
+.white{
+	background: #fff !important;
+	color: #222;
+}
+
+.toolbar.white a.link{
+ color: black;
+-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+.toolbar.white a.link.active{
+	color:#222 !important;
+	-webkit-text-fill-color: #222; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+
+.img-res{
+width: 100%;
+ outline: 1px solid white;
+  outline-offset: -1px;
+	
+}
+.img-circle{
+	border-radius: 100%;
+}
+.page-content{
+	padding-bottom: 50px;
+}
+
+.item-no-pading-top .content-block-title{
+	padding-top: 0;
+	margin-top: 0;
+}	
+
+.accordion-item-margin-top .row{
+	margin-top: 10px;
+}
+.accordion-item-margin-top .row .content-block{
+	border-bottom: 1px solid #f1f1f1;
+}
+.page-content-no-padding-top{
+	padding-top: 40px !important;
+}
+.center-text{
+	text-align: center;
+}
+
+.center-nav-text{
+	width: 100%;
+	text-align: center !important;
+}
+
+.blue-border-text{
+	border: 1px solid #2196f3 ;
+	background: transparent !important;
+
+}
+
+.blue-border-text .chip-media i ,.blue-border-text  .chip-label{
+	color: #2196f3;
+}
