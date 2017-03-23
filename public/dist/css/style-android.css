@@ -66,3 +66,16 @@ width: 100%;
 .blue-border-text .chip-media i ,.blue-border-text  .chip-label{
 	color: #2196f3;
 }
+
+.follow-button div i, .follow-button div,.follow-button  {
+	font-size:10px;
+	height: auto !important;
+}
+
+.follow-button .chip-media .chip-label{
+	margin-left: 0px; */
+}
+
+.list-block{
+	margin:0px;
+}
