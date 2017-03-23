@@ -23,8 +23,9 @@
 
 .img-res{
 width: 100%;
- outline: 1px solid white;
-  outline-offset: -1px;
+ outline: 3px solid white;
+ outline-offset: -3px;
+ on
 	
 }
 .img-circle{
@@ -78,4 +79,22 @@ width: 100%;
 
 .list-block{
 	margin:0px;
+}
+
+.menu-font .list-block .item-title{
+	font-size: 12px;
+}
+
+.folder-border-circle{
+	border-radius: 50%;
+	border:1px solid #222;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.list-block.font-12 .item-link.list-button, .font-12 ul li a{
+	font-size: 12px;
+
 }
