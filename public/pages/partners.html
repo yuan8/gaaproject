@@ -29,7 +29,7 @@
           <div class="item-content">
             <div class="item-inner"> 
               <div class="item-input item-input-field">
-                <input type="text" placeholder="Keywords....">
+                <input type="text" class="font-small" placeholder="Keywords..">
               </div>
             </div>
           </div>
@@ -37,9 +37,9 @@
         <li>
           <div class="item-content">
         
-            <div class="item-inner not-empty-state"> 
+            <div class="item-inner not-empty-state" style="padding-top: 0;"> 
               <div class="item-input item-input-field not-empty-state">
-                <input type="text" placeholder="--Select a Category--" readonly="" id="ks-picker-device" class="not-empty-state">
+                <input type="text" class="font-small" placeholder="Select a Category" readonly="" id="category-partner" class="not-empty-state">
               </div>
             </div>
         
@@ -47,17 +47,35 @@
           </div>
         </li>
 
-        <div class="content-block">
-        	 <a href="#" class="button button-raised">Button</a>
+        <div class="content-block" style="padding-top: 0; margin-top: 0;">
+        <div class="row right" >
+        <div class="col-33 " style="">
+          <input type="submit" name=""  class="button button-raised" value="Serach"> 
+        </div>
+           
+        </div>
+      
+          
         </div>
       
     </form>
     
-    <div class="content-block">
-    	<img  class="img-res" src="../dist/img/in1.jpg">
+    <div class="content-block" style="min-height: 80px;">
+    	 <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide "><img src="../dist/img/1.jpg" class="img-center"></div>
+      <div class="swiper-slide"><img src="../dist/img/3.jpg" class="img-center"></div>
+         <div class="swiper-slide"><img src="../dist/img/2.jpg" class="img-center"></div>
+         <div class="swiper-slide"><img src="../dist/img/4.jpg" class="img-center"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
     </div>
 
 
 
   </div>
+
+
+
 </div>

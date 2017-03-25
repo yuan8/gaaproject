@@ -135,7 +135,26 @@ myApp.onPageInit('budget', function (page) {
 
 
 });
+myApp.onPageInit('partners', function (page) {
 
+var pickerDevice = myApp.picker({
+        input: '#category-partner',
+        cols: [
+            {
+                textAlign: 'center',
+                values: ['Category 1','Category 2','Category 3','Category 4','Category 5' ]
+            }
+        ]
+    });
+
+
+ // Init slider and store its instance in mySwiper variable
+  var mySwiper = myApp.swiper('.swiper-container', {
+    pagination:'.swiper-pagination'
+  });
+
+
+});
 
 
 

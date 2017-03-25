@@ -144,3 +144,18 @@ width: 100%;
 .menu-icon-text .right{
 	text-align: right;
 }
+.chip-no-space .chip-media{
+	width: 15px;
+}
+.chip-no-space .chip-label{
+	margin-left: 0px;
+}
+.font-small{
+	font-size: 12px!important;
+}
+.img-center{	
+    text-align: center;
+    display: block;
+    font-size: 21px;
+
+}
