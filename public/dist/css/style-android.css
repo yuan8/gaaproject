@@ -23,9 +23,7 @@
 
 .img-res{
 width: 100%;
- outline: 3px solid white;
- outline-offset: -3px;
- on
+
 	
 }
 .img-circle{
@@ -97,4 +95,52 @@ width: 100%;
 .list-block.font-12 .item-link.list-button, .font-12 ul li a{
 	font-size: 12px;
 
+}
+.col-img{
+	width: 33.333333333333336% !important;
+  width: -webkit-calc((100% - 5px*2) / 3) !important;
+  width: calc((100% - 5px*2) / 3) !important;
+}
+
+.no-white-space{
+	white-space: normal!important;
+	text-align: justify;
+    text-justify: inter-word;
+    font-size: 12px;
+
+}
+.small-font{
+	font-size: 12px;
+}
+.no-padding-top{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+
+.min-width-media-img-70, .min-width-media-img-70 img {
+	min-width: 70px;
+	max-width: 70px;
+}
+
+.min-width-media-img-70 img {
+	border:2px solid #f1f1f1;
+
+}
+
+.icon-small{
+	font-size: 20px;
+}
+.menu-icon-text{
+	font-size: 8px;
+}
+.menu-icon-text h5{
+	padding:0px;
+	margin: 0px;
+}
+.menu-icon-text .center{
+	text-align: center;
+}
+.menu-icon-text .right{
+	text-align: right;
 }
