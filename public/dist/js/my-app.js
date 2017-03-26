@@ -50,6 +50,48 @@ myApp.onPageInit('detail-project', function (page) {
 
 });
 
+myApp.onPageInit('people-on-project', function (page) {
+
+  
+    
+
+
+    $$('.open-left-panel').on('click', function (e) {
+        // 'left' position to open Left panel
+        myApp.openPanel('left');
+    });
+
+    // close panel left
+    $$('.panel-left a').on('click',function (e) {
+        myApp.closePanel('left');
+    });
+
+
+
+
+});
+
+myApp.onPageInit('complaint', function (page) {
+
+  
+    
+
+
+    $$('.open-left-panel').on('click', function (e) {
+        // 'left' position to open Left panel
+        myApp.openPanel('left');
+    });
+
+    // close panel left
+    $$('.panel-left a').on('click',function (e) {
+        myApp.closePanel('left');
+    });
+
+
+
+
+});
+
 myApp.onPageInit('panel-design', function (page) {
 	$$('.open-left-panel').on('click', function (e) {
 	// 'left' position to open Left panel
@@ -132,6 +174,28 @@ myApp.onPageInit('budget', function (page) {
     });
 
 	closeFunctionPopover();
+
+
+});
+
+
+myApp.onPageInit('picture', function (page) {
+    $$('.button-share').on('click', function () {
+    var clickedLink = this;
+    myApp.popover('.popover-share', clickedLink);
+    });  
+
+    $$('.open-left-panel').on('click', function (e) {
+    // 'left' position to open Left panel
+    myApp.openPanel('left');
+    });
+
+    // close panel left
+    $$('.panel-left a').on('click',function (e) {
+        myApp.closePanel('left');
+    });
+
+    closeFunctionPopover();
 
 
 });
