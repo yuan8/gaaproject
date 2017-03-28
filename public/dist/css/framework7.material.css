@@ -14,6 +14,12 @@
  * 
  * Released on: March 13, 2017
  */
+
+@font-face {
+    font-family:'PT Sans';
+    src: url(../fonts/PT_Sans-web-Regular.ttf);
+}
+
 html,
 body,
 .framework7-root {
@@ -23,7 +29,7 @@ body,
   overflow-x: hidden;
 }
 body {
-  font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans',Roboto, Noto, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #212121;

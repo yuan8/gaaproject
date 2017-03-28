@@ -278,3 +278,7 @@ width: 100%;
 .font-xs{
 	font-size: 8px !important;
 } 
+
+.navbar .navbar-inner div{
+	font-size: 14px;
+}

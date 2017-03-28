@@ -1,15 +1,30 @@
 // Init App
 var myApp = new Framework7({
-    modalTitle: 'Framework7',
-    // Enable Material theme
+    modalTitle: 'Gaa Project',
     material: true,
+    pushState: true,
+    swipePanel: 'left',
+    materialPageLoadDelay:0,
+    cacheIgnoreGetParameters:true,
+     onAjaxStart: function (xhr) {
+        myApp.showIndicator();
+    },
+    onAjaxComplete: function (xhr) {
+        myApp.hideIndicator();
+    },
+    materialPreloaderHtml:'<span class="preloader-inner"><span class="preloader-inner-gap"></span><span class="preloader-inner-left"><span class="preloader-inner-half-circle"></span></span><span class="preloader-inner-right"><span class="preloader-inner-half-circle"></span></span></span>'
+
 });
 
 // Expose Internal DOM library
 var $$ = Dom7;
 
 // // Add main view
-var mainView = myApp.addView('.view-main', {reloadPages:true
+var mainView = myApp.addView('.view-main', {
+    animatePages:true,
+    preloadPreviousPage:true,
+    domCache:true
+
 });
 
 
