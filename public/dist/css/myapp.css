@@ -1,0 +1,11 @@
+.toolbar.white{
+	background: #fff;
+	color: #222 !important; 
+}
+
+.toolbar.white a.link.active{
+	color:#222 !important;
+	-webkit-text-fill-color: #222; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}

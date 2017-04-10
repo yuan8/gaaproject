@@ -280,5 +280,8 @@ width: 100%;
 } 
 
 .navbar .navbar-inner div{
-	font-size: 14px;
+	font-size: 12px;
+}
+.navbar .navbar-inner div i{
+	font-size: 16px;
 }

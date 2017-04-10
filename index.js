@@ -4,8 +4,10 @@ var app=express();
 
 app.enable('etag');
 app.set('view engine', 'pug');
-app.use(express.static("./public/pages/"));
-app.use(express.static("./public"));
+app.use(express.static("./FIX/"));
+app.use(express.static("./FIX/public"));
+
+
 
 var port = 808;
 app.listen(port);
